@@ -7,6 +7,7 @@ basic styles
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -16,5 +17,7 @@ body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
 }
+
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
