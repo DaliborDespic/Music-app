@@ -2,7 +2,7 @@
 
     <!-- hivHeader -->
     <section class="hivHeader">
-        <h2>How it works</h2>
+        <h2 class="container">How it works</h2>
         <article class="container">
             <div>
             <i class="fas fa-user-circle"></i>
