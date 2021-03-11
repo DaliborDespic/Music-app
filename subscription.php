@@ -4,7 +4,7 @@
         <div class="container">
             <div>
                 <h2>Subscription from $15/month</h2>
-                <h4>Start a free trial now</h4>
+                <h4>Start a free trial</h4>
             </div>
             <div>
             <ul>
@@ -13,7 +13,7 @@
                 <li>No add interruptions</li>
                 <li>Unlimited skips</li>
                 <li>High quality</li>
-                <li></li>
+                <li>Shuffle play</li>
             </ul>
             </div>
         </div>
