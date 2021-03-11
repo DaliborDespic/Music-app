@@ -22,7 +22,6 @@ mixins
     align-items: $align;
     flex-direction: $direction;
 }
-
 @mixin btn {
     padding: 20px 40px;
     font-size: 1rem;
@@ -71,12 +70,10 @@ a {
         color: $pink;
     }
 }
-
 .container {
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
-
 h2 {
     font-size: 3rem;
     line-height: 1.1;
@@ -108,18 +105,17 @@ footer {
     p {
         color: $bela;
         padding: 15px 0;
-        font-size: 0.8rem;
+        font-size: .8rem;
     }
     a {
         margin: 0 20px;
         font-size: 1.2rem;
     }
 }
-
-/**********
-header
-**********/
-.mainHeader  {
+/**************
+hEADER
+**************/
+.mainHeader {
     background: $tamnoPlava;
     color: $bela;
     padding: 0 60px;
@@ -141,13 +137,12 @@ header
         }
     }
 }
-
-/**********
+/**************
 unlimited
-**********/
+**************/
 .unlimited {
     padding: $padding;
-    @include flex(space-between,center,row);
+    @include flex(space-between, center, row);
     article {
         flex: 0 0 48%;
         button {
@@ -155,10 +150,9 @@ unlimited
         }
     }
 }
-
-/**********
+/**************
 hivHeader
-**********/
+**************/
 .hivHeader {
     padding: $padding;
     background: $tamnoPlava;
@@ -173,10 +167,53 @@ hivHeader
                 margin: 30px 0;
             }
             h3 {
-                margin-bottom: 30px;
+                margin: 0 0 30px 0;
                 font-size: 1.7rem;
             }
         }
     }
 }
-
+/**************
+artists
+**************/
+.artists {
+    padding: $padding;
+    article:first-child {
+        @include flex(space-between,flex-start,row);
+        h2 {
+            flex: 0 0 48%;
+        }
+        p {
+            flex: 0 0 48%;
+        }
+    }
+    article:last-child {
+        @include flex(space-between,center,row);
+        margin-top: 50px;
+        div {
+            flex: 0 0 22%;
+            text-align: center;
+            img {
+                width: 100%;
+                border-radius: 40px;
+            }
+        }
+        
+    }
+}
+/**************
+concept
+**************/
+.concept {
+    @extend .artists;
+    article:last-child {
+        @include flex(space-between,center,row);
+        div {
+            flex: 0 0 15%;
+            img {
+                border-radius: 50%;
+            }
+        }
+        
+    }
+}

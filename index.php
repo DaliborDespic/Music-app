@@ -1,18 +1,18 @@
 <?php include "partials/header.php"; ?>
 
-  <!-- header -->
-  <header class="mainHeader">
-      <div>
-        <h1><span>Music</span> for everyone</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates nesciunt repellendus reiciendis iste, mollitia alias? Ipsa ab quaerat harum, omnis placeat nam delectus, magnam facilis aliquam alias, dicta expedita? Molestias.</p>
-        <button>Start free trial</button>
-      </div>
-      <div>
-        <img src="./img/header.png" alt="">
-      </div>
-  </header>
+    <!-- header -->
+    <header class="mainHeader">
+        <div>
+            <h1><span>Music</span> for everyone</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero dolorum voluptatum eos nisi delectus est temporibus blanditiis reiciendis magnam nulla quas veniam, et impedit. Doloribus alias sunt sit est.</p>
+            <button>Start free trial</button>
+        </div>
+        <div>
+            <img src="img/header.png" alt="">
+        </div>
+    </header>
 
-  <!-- unlimited -->
+    <!-- unlimited -->
     <section class="unlimited container">
         <article>
             <h2>Unlimited Access to 100K tracks</h2>
