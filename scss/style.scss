@@ -209,7 +209,7 @@ concept
     article:last-child {
         @include flex(space-between,center,row);
         div {
-            flex: 0 0 15%;
+            flex: 0 0 25%;
             img {
                 border-radius: 50%;
             }

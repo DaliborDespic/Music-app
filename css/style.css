@@ -2,12 +2,14 @@
 variables
 ******************************/
 /******************************
+mixins
+******************************/
+/******************************
 basic styles
 ******************************/
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -18,6 +20,231 @@ body {
   line-height: 1.5;
 }
 
-/*# sourceMappingURL=style.css.map */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #f91257;
+  transition: 0.3s ease;
+}
+
+.logo, nav > a {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.logo span, nav > a span {
+  color: #f91257;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+/**************
+nav
+**************/
+nav {
+  background: #09192c;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 30px 60px;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+nav ul li {
+  margin-left: 50px;
+}
+
+/**************
+footer
+**************/
+footer {
+  background: #09192c;
+  text-align: center;
+  padding: 80px 0;
+}
+footer p {
+  color: white;
+  padding: 15px 0;
+  font-size: 0.8rem;
+}
+footer a {
+  margin: 0 20px;
+  font-size: 1.2rem;
+}
+
+/**************
+hEADER
+**************/
+.mainHeader {
+  background: #0b193c;
+  color: white;
+  padding: 0 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.mainHeader div {
+  flex: 0 0 45%;
+}
+.mainHeader div img {
+  width: 100%;
+  padding: 40px 0;
+}
+.mainHeader div h1 {
+  font-size: 4rem;
+}
+.mainHeader div h1 span {
+  color: #f91257;
+}
+.mainHeader div button {
+  padding: 20px 40px;
+  font-size: 1rem;
+  background: #f91257;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 20px;
+  border-radius: 40px;
+  letter-spacing: 2px;
+}
+.mainHeader div button:hover {
+  background: #383c6e;
+  transition: 0.3s ease;
+}
+
+/**************
+unlimited
+**************/
+.unlimited {
+  padding: 80px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.unlimited article {
+  flex: 0 0 48%;
+}
+.unlimited article button {
+  padding: 20px 40px;
+  font-size: 1rem;
+  background: #f91257;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 20px;
+  border-radius: 40px;
+  letter-spacing: 2px;
+}
+.unlimited article button:hover {
+  background: #383c6e;
+  transition: 0.3s ease;
+}
+
+/**************
+hivHeader
+**************/
+.hivHeader {
+  padding: 80px 0;
+  background: #0b193c;
+  color: white;
+}
+.hivHeader .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.hivHeader .container div {
+  flex: 0 0 30%;
+}
+.hivHeader .container div i {
+  color: #f91257;
+  font-size: 4rem;
+  margin: 30px 0;
+}
+.hivHeader .container div h3 {
+  margin: 0 0 30px 0;
+  font-size: 1.7rem;
+}
+
+/**************
+artists
+**************/
+.artists, .concept {
+  padding: 80px 0;
+}
+.artists article:first-child, .concept article:first-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.artists article:first-child h2, .concept article:first-child h2 {
+  flex: 0 0 48%;
+}
+.artists article:first-child p, .concept article:first-child p {
+  flex: 0 0 48%;
+}
+.artists article:last-child, .concept article:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.artists article:last-child div, .concept article:last-child div {
+  flex: 0 0 22%;
+  text-align: center;
+}
+.artists article:last-child div img, .concept article:last-child div img {
+  width: 100%;
+  border-radius: 40px;
+}
+
+/**************
+concept
+**************/
+.concept article:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.concept article:last-child div {
+  flex: 0 0 25%;
+}
+.concept article:last-child div img {
+  border-radius: 50%;
+}
 
 /*# sourceMappingURL=style.css.map */
